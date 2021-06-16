@@ -19,7 +19,7 @@ const NewQuotes = () => {
     const newQuoteHandler = (quoteData) => {
       
         sendRequest(quoteData)
-        //history.push('/quotes'); //it will navigate to ALLQuotes page;
+        history.push('/quotes'); //it will navigate to ALLQuotes page;
 
         //history.replace('/quotes'); //This will also navigate same as above
         //but replace method will replace the page means we cannot go back to NewQuote page again
