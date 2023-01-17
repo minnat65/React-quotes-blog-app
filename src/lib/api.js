@@ -1,4 +1,4 @@
-const FIREBASE_DOMAIN = process.env.REACT_APP_DB;
+const FIREBASE_DOMAIN = process.env.REACT_APP_DB; // or put url here
 
 export async function getAllQuotes() {
   const response = await fetch(`${FIREBASE_DOMAIN}/quotes.json`);
